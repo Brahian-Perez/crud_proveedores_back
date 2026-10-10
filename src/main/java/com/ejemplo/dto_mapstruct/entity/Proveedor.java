@@ -13,6 +13,9 @@ public class Proveedor {
     private String telefono;
     private String correo;
 
+    public Proveedor() {
+    }
+
     public Proveedor(Long id) {
         this.id = id;
     }
